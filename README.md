@@ -19,8 +19,8 @@ local encrypt_data = xxtea_encrypt(string_to_bytes(text), key)
 local decrypt_data = xxtea_decrypt(encrypt_data, key)
 
 if text == string.char(unpack(decrypt_data)) then
-  print("success!\n");
+	print("success!\n");
 else
-  print("fail!\n");
+	print("fail!\n");
 end
 ```
