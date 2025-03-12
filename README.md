@@ -1,4 +1,4 @@
-# xxtea-luau
+# XXTEA for Luau
 Pure Luau implantation of xxtea encryption algorithm
 
 ## Usage
